@@ -163,6 +163,7 @@ setup(
         'xrt.xrtQook': [os.path.join('_icons', '*.*'),
                         os.path.join('_images', '*.*'),
                         os.path.join('xmls', '*.*')]},
+    include_package_data=True,
     scripts=[os.path.join('xrt', 'xrtQook', 'xrtQook.pyw')],
     classifiers=['Development Status :: 5 - Production/Stable',
                  'Intended Audience :: Science/Research',
